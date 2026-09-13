@@ -1,0 +1,6 @@
+@Store.Hossam_HostAddress = http://localhost:5298
+
+GET {{Store.Hossam_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

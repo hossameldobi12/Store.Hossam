@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{baseUrl}}/api/auth"
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"OmarAhmed@gmail.com\"\r
+
+    \    \r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0oqs}}"
+settings: {}
+order: 5000

@@ -1,0 +1,19 @@
+$kind: collection
+description: ""
+variables:
+  - key: baseUrl
+    value: https://localhost:7178
+    disabled: false
+    secret: false
+  - key: json_web_token_0ptd
+    secret: true
+    disabled: false
+  - key: json_web_token_0s9g
+    secret: true
+    disabled: false
+  - key: json_web_token_0geb
+    secret: true
+    disabled: false
+  - key: json_web_token_0oqs
+    secret: true
+    disabled: false

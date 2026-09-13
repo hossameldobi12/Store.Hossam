@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/api/Orders/6ddb633a-c390-4124-9df0-a3097c1ef434"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0s9g}}"
+order: 3000

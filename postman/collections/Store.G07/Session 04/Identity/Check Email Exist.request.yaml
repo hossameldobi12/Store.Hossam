@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/api/auth/EmailExists?email=OmarAhmed@gmail.com"
+method: GET
+queryParams:
+  email: OmarAhmed@gmail.com
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"OmarAhmed@gmail.com\"\r
+
+    }"
+settings: {}
+order: 4000

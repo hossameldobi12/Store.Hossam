@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/Test"
+method: GET
+order: 6000

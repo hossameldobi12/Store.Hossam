@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/api/payments/order1"
+method: POST
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{Messi_Token}}
+body:
+  type: json
+  content: "{}"
+auth:
+  type: bearer
+  credentials:
+    token: "{{hamda_token}}"
+order: 4000

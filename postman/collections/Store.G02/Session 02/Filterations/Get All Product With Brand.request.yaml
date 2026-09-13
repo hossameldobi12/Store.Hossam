@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/api/Products?brandId=1"
+method: GET
+queryParams:
+  brandId: "1"
+order: 2000

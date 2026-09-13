@@ -1,0 +1,18 @@
+$kind: collection
+description: ""
+variables:
+  - key: baseUrl
+    value: https://localhost:7178
+    disabled: false
+  - key: supabase_service_role_api_key_0ptd
+    secret: true
+    disabled: false
+  - key: supabase_service_role_api_key_0s9g
+    secret: true
+    disabled: false
+  - key: supabase_service_role_api_key_0geb
+    secret: true
+    disabled: false
+  - key: supabase_service_role_api_key_0oqs
+    secret: true
+    disabled: false

@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/buggy/badrequest"
+method: GET
+order: 3000

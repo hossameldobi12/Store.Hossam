@@ -1,0 +1,19 @@
+workspace:
+  id: b580630c-f630-4e5c-8280-e0d8eacfb80e
+
+localResources:
+  specs:
+    - ../Store.Hossam/obj/Debug/net8.0/EndpointInfo/Store.Hossam.json
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  specs:
+    ../Store.Hossam/obj/Debug/net8.0/EndpointInfo/Store.Hossam.json: 0ac1ddea-b901-48bb-ba38-e045510324fb
+  globals:
+    ../postman/globals/workspace.globals.yaml: b8933fb7-f61a-4027-8974-9b8d83792066
+  collections:
+    ../postman/collections/Store.G06: ff385c18-2121-4e32-b9aa-248f560055e3
+    ../postman/collections/Store.G02: d4a180f9-d197-4d81-97e9-39290c7def77
+    ../postman/collections/Store.G07: 15488a10-4ff6-44f8-a39e-9a9dee3eeca0
+    ../postman/collections/Store.G07 Copy: 2fb60b7f-ae58-48d5-9f3f-30ba4c6e1356

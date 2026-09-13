@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/buggy/notfound"
+method: GET
+order: 1000

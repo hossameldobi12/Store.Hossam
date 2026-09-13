@@ -1,0 +1,25 @@
+$kind: http-request
+url: "{{baseUrl}}/api/auth/Address"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \     \"firstName\": \"ahmed\",\r
+
+    \        \"lastName\": \"ali\",\r
+
+    \        \"street\": \"NasrCity\",\r
+
+    \        \"city\": \"Cairo\",\r
+
+    \        \"country\": \"Egypt\"\r
+
+    \    \r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0oqs}}"
+order: 3000
