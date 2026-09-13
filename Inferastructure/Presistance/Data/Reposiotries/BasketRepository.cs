@@ -15,6 +15,7 @@ namespace Presistance.Data.Reposiotries
     public class BasketRepository(IConnectionMultiplexer connection) : IBasketRepository
     {
         private readonly IDatabase _database = connection.GetDatabase();
+
         public async Task<CustomerBasket?> GetBasketAsync(string id)
         {
            var redisValue =  await _database.StringGetAsync(id);
