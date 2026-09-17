@@ -1,5 +1,0 @@
-$kind: collection
-name: Store.G06
-description: ""
-variables:
-  baseUrl: https://localhost:7230

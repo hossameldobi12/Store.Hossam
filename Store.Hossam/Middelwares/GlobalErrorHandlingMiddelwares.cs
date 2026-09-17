@@ -20,6 +20,7 @@ namespace Store.Hossam.Middelwares
         {
             try
             {
+                
                 await _next.Invoke(context);
                 if (context.Response.StatusCode == StatusCodes.Status404NotFound) {
 

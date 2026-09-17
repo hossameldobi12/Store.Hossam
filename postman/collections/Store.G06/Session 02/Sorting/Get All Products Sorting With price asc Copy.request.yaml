@@ -1,6 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/Products?sort=priceasc"
-method: GET
-queryParams:
-  sort: priceasc
-order: 5000

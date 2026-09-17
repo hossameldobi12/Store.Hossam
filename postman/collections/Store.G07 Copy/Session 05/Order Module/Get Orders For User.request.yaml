@@ -1,8 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/Orders"
-method: GET
-auth:
-  type: bearer
-  credentials:
-    token: "{{supabase_service_role_api_key_0s9g}}"
-order: 2000

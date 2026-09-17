@@ -1,4 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/buggy/badrequest/ahmed"
-method: GET
-order: 4000

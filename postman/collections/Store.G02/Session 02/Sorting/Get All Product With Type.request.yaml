@@ -1,6 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/Products?typeId=1"
-method: GET
-queryParams:
-  typeId: "1"
-order: 7000

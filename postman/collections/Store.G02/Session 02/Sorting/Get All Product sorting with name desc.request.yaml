@@ -1,6 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/Products?sort=namedesc"
-method: GET
-queryParams:
-  sort: namedesc
-order: 3000
